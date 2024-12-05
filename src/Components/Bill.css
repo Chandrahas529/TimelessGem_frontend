@@ -1,0 +1,201 @@
+.bill{
+    padding: 1em;
+}
+.product-data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+.minus,.plus{
+    background: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.quantity-ctn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.quantity{
+    font-size: 18px;
+    font-weight: 500;
+}
+.product-img-ctn-2 img{
+    height: 100%;
+    max-width: 250px;
+}
+.product-img-ctn-2{
+    width: 350px;
+    max-height: 250px;
+    /* overflow: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand-2{
+    color: #42a7ff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.description-2{
+    font-size: 24px;
+    line-height: 1.2;
+}
+.price-2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+.actual-price-2 {
+    font-size: 18px;
+    text-decoration: line-through;
+    color: #979797;
+}
+.discount-2 {
+    font-weight: 500;
+    font-size: 23px;
+    color: #5cba89;
+}
+.row-2{
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+.lable{
+
+}
+.add-title{
+    font-weight: 500;
+}
+.table{
+    font-size: 21px;
+}
+.td{
+    padding: 5px;
+}
+.txt-box{
+    font-size: 16px;
+    padding: 2px 5px;
+    width: 300px;
+}
+.oran{
+    background: #009fff;
+    color: white;
+    font-weight: 500;
+}
+.table-2{
+    font-size: 18px;
+}
+.td-2{
+    padding: 4px 8px;
+}.table-2 tr td:first-child{
+    padding-right: 30px;
+}
+.pay-ctn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pay{
+    font-size: 15px;
+    padding: 3px 8px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    background: #009fff;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+@media (max-width:900px) {
+    .row-2{
+        flex-direction: column;
+    }
+}
+@media (max-width:700px) {
+    .description-2{
+        font-size: 20px;
+    }
+    .price-2{
+        font-size: 22px;
+    }
+    .actual-price-2{
+        font-size: 15px;
+    }
+    .discount-2{
+        font-size: 19px;
+    }
+}
+@media (max-width:600px) {
+    .product-data{
+        flex-direction: column;
+    }
+    .row-2{
+        padding: 0px;
+    }
+}
+@media (max-width:550px) {
+    .table{
+        font-size: 19px;
+    }
+    .txt-box{
+        font-size: 14px;
+        width: 250px;
+    }
+}
+@media (max-width:480px) {
+    .table{
+        width: 100%;
+        font-size: 17px;
+    }
+    .td{
+        padding: 2px;
+    }
+    .tr{
+        display: flex;
+        flex-direction: column;
+    }
+    .txt-box{
+        width: 100%;
+        padding: 1px 5px;
+    }
+    .row-2{
+        align-items: normal;
+    }
+}
+@media (max-width:450px) {
+    .product-img-ctn-2 img{
+        max-height: 150px;
+    }
+    .product-img-ctn-2{
+        width: 100%;
+        max-height: 150px;
+    }
+    .brand-2{
+        font-size: 16px;
+    }
+    .price-2{
+        font-size: 20px;
+    }
+    .discount-2{
+        font-size: 17px;
+    }
+    .product-data{
+        font-size: 15px;
+    }
+    .plus,.minus{
+        height: 22px;
+        width: 22px;
+        font-size: 12px;
+    }
+}

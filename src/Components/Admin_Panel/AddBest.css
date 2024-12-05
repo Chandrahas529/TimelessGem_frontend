@@ -1,0 +1,118 @@
+.add-best{
+    width: 100%;
+    height: fit-content;
+    padding: 10px 20px;
+}
+.best-sell-title{
+    text-align: center;
+    width: 100%;
+    font-size: 26px;
+}
+.best-selling-list{
+    padding-top: 20px;
+    display: grid;
+}
+.best-list-ctn{
+    display: grid;
+    grid-template-columns: 1fr repeat(4,1fr);
+    justify-items: center;
+    gap: 10px;
+}
+.admin-best-list{
+    width: 150px;
+    text-align: center;
+    position: relative;
+}
+.product-img-ctn{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-image{
+    max-height: 200px;
+    width: auto;
+}
+.add-best-watch{
+    margin-top: 15px;
+}
+.add-product-best-list-title{
+    font-size: 18px;
+}
+.searchbox-best{
+    margin-top: 5px;
+    width: 500px;
+    font-size: 18px;
+    padding: 4px 32px 4px 20px;
+    background: #f3f3f3;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid #6f6b6b;
+}
+.add-best-btn-ctn{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    background: #f3f3f3;
+    padding: 10px 10px;
+}
+.add-best-btn-ctn div{
+    max-width: 300px;
+}
+.show-add-form{
+    height: 80px;
+    width: 80px;
+    font-size: 20px;
+    color: #7d8083;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.add-best-cancel{
+    border: none;
+    color: white;
+    background: black;
+    padding: 5px 17px;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.add-best-btn{
+    font-size: 18px;
+    padding: 2px 4px;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.add-best-btn:hover{
+    color: white;
+    background: black;
+}
+.v-d-btn-ctn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+.v-d-btn-ctn button{
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.v-d-btn-ctn button:nth-child(1){
+    background: blue;
+}
+.v-d-btn-ctn button:nth-child(2){
+    background: red;
+}
+.admin-best-list:hover > .v-d-btn-ctn{
+    display: flex;
+}

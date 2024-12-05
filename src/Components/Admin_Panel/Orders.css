@@ -1,0 +1,35 @@
+.orders{
+    padding: 1em;
+    height: 100%;
+    width: 100%;
+}
+.orders table{
+    width: 100%;
+}
+.table-head-order-section{
+    background: #d4d4d4;
+}
+.orders td {
+    text-align: center;
+    background: #f3f3f3;;
+}
+.table-head-order-section th {
+    padding: 10px 0px;
+    font-weight: 600;
+}
+.orders-title{
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 26px;
+}
+.admin-order-search-box{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+.admin-order-search-ctn{
+    position: relative;
+    width: fit-content;
+}

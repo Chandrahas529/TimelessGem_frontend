@@ -1,0 +1,92 @@
+.sponsor{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+}
+.sponsor-title{
+    text-align: center;
+    font-size: 26px;
+    width: 100%;
+}
+.sponsor-categorie-ctn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 1em;
+}
+.add-sponsor-list:first-child{
+    cursor: pointer;
+}
+.add-sponsor-list {
+    height: fit-content;
+    width: 160px;
+    position: relative;
+    border-radius: 30px;
+    display: grid;
+}
+.sponsor-img-ctn{
+    height: 160px;
+    width: 160px;
+    border: 1px solid #e9e9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sponsor-action-list{
+    background: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    height: 0;
+    overflow: hidden;
+    transition: .1s;
+}
+.action-active{
+    height: 78px;
+}
+.sponsor-action-list span{
+    padding: 4px 50px 4px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.sponsor-img {
+    object-fit: cover;
+    height: 160px;
+    padding: 5px;
+    width: auto;
+}
+.sponsor-img-2 {
+    width: -webkit-fill-available;
+}
+.three-dots{
+    font-size: 18px;font-size: 19px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+.sponsor-img-ctn:hover > .three-dots{
+    display: block;
+}
+.sponsor-name {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+.black-layer{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #0000001c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

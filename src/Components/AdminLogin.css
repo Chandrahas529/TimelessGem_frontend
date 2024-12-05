@@ -1,0 +1,94 @@
+.admin-title{
+    color: white;
+    background: black;
+    height: 70px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-bg{
+    background: url("../Images/logo.png");
+    height: 100%;
+    width: 100%;
+    background-size: 150px;
+}
+.login-bg-2{
+    height: calc(100vh - 70px);
+    width: -webkit-fill-available;
+    background: #f0f8ffe8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-ctn{
+    width: 350px;
+    background: white;
+    padding: 15px;
+}
+.sign-title{
+    text-align: center;
+    padding: 15px;
+    font-size: 28px;
+}
+.login-row{
+    font-size: 18px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+.login-box{
+    padding: 4px 12px;
+    font-size: 18px;
+    width: 100%;
+    outline: none;
+    background: #f4f4f4;
+    border: none;
+}
+.forget{
+    margin-top: 15px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #00b7ff;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.sign-btn{
+    margin-top: 15px;
+    color: white;
+    background: black;
+    padding: 3px 49px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.sign-btn-ctn{
+    display: flex;
+    justify-content: center;
+}
+.account{
+    font-size: 17px;
+    margin: 15px 0 25px 0;
+    cursor: pointer;
+    color: #5a5b5c;
+}
+@media (max-width:425px){
+    .login-ctn{
+        width: 100%;
+        padding: 10px 8px;
+    }
+    .admin-title{
+        font-size: 22px;
+        height: 55px;
+    }
+    .login-bg{
+        background: white;
+    }
+    .login-bg-2{
+        background: white;
+    }
+}

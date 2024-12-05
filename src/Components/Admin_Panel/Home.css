@@ -1,0 +1,102 @@
+.home{
+    height: 100%;
+    width: 100%;
+    padding: 1em;
+}
+.status-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+}
+.order-boxes,.sell-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+}
+.total-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px 10px;
+    background: #ffffff;
+    color: black;
+    border: 1.9px solid black;
+    border-radius: 6px;
+}
+.time-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.time-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+}
+.red{
+    background: #1b1b1b;
+    color: white;
+    border: 1.9px solid black;
+    border-radius: 6px;
+}
+.green{
+    background: #ffffff;
+    color: black;
+    border: 1.9px solid black;
+    border-radius: 6px;
+}
+.blue{
+    background: #1b1b1b;
+    color: white;
+    border: 1.9px solid black;
+    border-radius: 6px;
+}
+.recent-orders{
+    margin-top: 2em;
+}
+.recent-orders h2{
+    font-weight: 600;
+}
+.table-head{
+    background: #d4d4d4;
+}
+.table-head th{
+    padding: 10px 0px;
+    font-weight: 600;
+}
+.recent-orders td{
+    padding: 5px 10px;
+    background: #f3f3f3;
+    text-align: center;
+}
+.recent-orders table{
+    width: 100%;
+}
+.view-btn{
+    
+}
+.view-btn button{
+    padding: 5px 30px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+.seen-btn{
+    padding: 5px 30px;
+    background: #00a1ff;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+.sidebar-links{
+    text-decoration: none;
+    color: black;
+}

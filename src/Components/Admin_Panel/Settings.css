@@ -1,0 +1,71 @@
+.settings{
+    height: fit-content;
+    width: 100%;
+    padding: 10px;
+}
+.settings-title{
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+}
+.your-detail{
+    margin-top: 1em;
+}
+.your-detail td{
+    padding: 15px 10px;
+    font-size: 20px;
+    background-color: #f3f3f3;
+}
+.your-detail-title{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 5px;
+}
+.bio{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    align-items: center;
+    justify-content: space-around;
+}
+.pic-btn{
+    border: none;
+    width: 50%;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+.profile-pic{
+    height: 200px;
+    width: 200px;
+}
+.profile-pic img{
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+}
+.pic-btn:first-child{
+    background:rgb(74 213 127);
+}
+.pic-btn:last-child{
+    background: red;
+}
+.bio i{
+    cursor: pointer;
+}
+.other-title{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 5px;
+}
+.other-admins td{
+    padding: 4px 10px;
+    font-size: 18px;
+    background-color: #f3f3f3;
+}
+.other-admins td img{
+    height: 50px;
+    width: 50px;
+}

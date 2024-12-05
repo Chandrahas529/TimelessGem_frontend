@@ -1,0 +1,125 @@
+.search-box-ctn{
+    padding: 1.5em;
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-box-ctn input{
+    width: 550px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: none;
+    outline: 1px solid #c0b5b5;
+}
+.search-box-ctn input:focus{
+    font-size: 14px;
+    outline: 2px solid orangered;
+}
+.search-box-ctn span{
+    padding: 8px 16px;
+    font-size: 12px;
+    background: orangered;
+    color: white;
+    cursor: pointer;
+}
+.search-result{
+    height: fit-content;
+    padding: 1em;
+}
+.search-body{
+    padding: 1em;
+}
+.search-title{
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 1em;
+}
+.search-list{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5em 10px;
+}
+.search-card{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center; /* Optional: center content inside the div */
+    box-sizing: border-box;
+}
+.search-img-ctn img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* max-height: 350px; */
+}
+.search-img-ctn{
+    display: flex;
+    justify-content: center;
+    /* background: rgb(212 210 210 / 38%); */
+    padding: 5px;
+    position: relative;
+    /* height: 100%;
+    width: auto;
+    min-height: 300px;
+    max-height: 400px; */
+    height: 350px;
+}
+.search-product-details{
+
+}
+.product-brand{
+    text-align: center;
+    color: #2898b0;
+    font-weight: 700;
+}
+.product-title{
+    font-size: 22px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Limits the text to 2 lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.price-ctn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0px 10px;
+    align-items: flex-end;
+}
+.search-discounted-price{
+    font-size: 22px;
+    font-weight: 500;
+}
+.search-real-price{
+    text-decoration: line-through;
+    font-size: 17px;
+    color: #8f8f8f;
+}
+.search-discounted-percent{
+    font-size: 20px;
+    color: #17bf11;
+}
+@media (max-width:650px) {
+    .search-box-ctn input{
+        width: 450px;
+    }
+}
+@media (max-width:520px) {
+    .search-box-ctn input{
+        width: -webkit-fill-available;
+    }
+    .search-box-ctn{
+        width: -webkit-fill-available;
+    }
+}
+@media (max-width:420px) {
+    .search-box-ctn input{
+        width: -webkit-fill-available;
+    }
+    .search-box-ctn{
+        padding: 15px;
+    }
+}

@@ -1,0 +1,114 @@
+.product-details{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product-view-title{
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.product-sides-ctn{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.product-left-admin{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.product-view-admin{
+    height: 250px;
+    max-width: 250px;
+}
+.small-images{
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.product-right-admin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.product-middle-admin{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.product-admin-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.tag-list-admin{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.offers-selling-launch{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.offers-selling-launch div{
+    padding: 15px;
+    color: white;
+}
+.offers-selling-launch div:nth-child(1){
+    background: #0d9ffa;
+}
+.offers-selling-launch div:nth-child(2){
+    background: #5ad769;
+}
+.offers-selling-launch div:nth-child(3){
+    background: #f68b34;
+}
+.offers-selling-launch div:nth-child(4){
+    background: #df57ff;
+}
+.delete-box{
+    background: #f63e34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    color: white;
+    padding: 15px;
+}
+.edit-box{
+    background: #f6c434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    color: white;
+    padding: 15px;
+}
+.big-icon{
+    font-size: 30px;
+}
+.offers-selling-launch span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+.offers-selling-launch button{
+    background-color: #ffffff54;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+.redstock{
+    color: #f63e34;
+}
+.greenstock{
+    color: #249631;
+}

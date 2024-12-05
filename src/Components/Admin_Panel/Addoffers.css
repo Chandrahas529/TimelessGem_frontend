@@ -1,0 +1,35 @@
+.add-offers{
+    width: 100%;
+    height: fit-content;
+    padding: 10px 20px;
+}
+.offers-title{
+    text-align: center;
+    width: 100%;
+    font-size: 26px;
+}
+.add-offers-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 200px;
+}
+.add-offer-img-ctn{
+    display: flex;
+    justify-content: center;
+    background: rgb(212 210 210 / 38%);
+    padding: 5px;
+    position: relative;
+    height: 250px;
+    width: auto;
+    min-height: 300px;
+    max-height: 400px;
+}
+.add-offer-img-ctn img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+.add-offer-img-ctn:hover > .v-d-btn-ctn{
+    display: flex;
+}

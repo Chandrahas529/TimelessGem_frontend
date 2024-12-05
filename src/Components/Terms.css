@@ -1,0 +1,39 @@
+.terms{
+    padding: 1em 2em;
+    text-align: justify;
+}
+.terms-title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+.terms-date{
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+.terms-topic{
+    font-size: 18px;
+    font-weight: 500;
+}
+@media (max-width:700px) {
+    .terms{
+        padding: 1em;
+    }
+}
+@media (max-width:600px) {
+    .terms-title{
+        font-size: 24px;
+    }
+    .terms-date{
+        font-size: 20px;
+    }
+    .terms-topic{
+        font-size: 17px;
+    }
+}
+@media (max-width:400px) {
+    .terms{
+        padding: 1em 10px;
+    }
+}

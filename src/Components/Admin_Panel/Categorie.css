@@ -1,0 +1,167 @@
+.categorie{
+    padding: 10px;
+    height: fit-content;
+    width: 100%;
+}
+.categories-title{
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.add-categorie-ctn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 1em;
+}
+.add-categorie-list{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.categorie-img{
+    object-fit: cover;
+    height: 200px;
+    width: auto;
+}
+.categories-type{
+    position: absolute;
+    bottom: 30px;
+    font-size: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.add-categorie-list-2{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.categorie-img-2{
+    object-fit: cover;
+    height: 180px;
+    width: auto;
+}
+.categories-type-2{
+    position: absolute;
+    bottom: 30px;
+    font-size: 20px;
+    left: 50%;
+    color: white;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.trash{
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background: blue;
+    width: 33px;
+    height: 80px;
+    border-radius: 30px 0 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: .3s;
+}
+.camera{
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    background: blue;
+    width: 80px;
+    height: 33px;
+    border-radius: 0 0 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: .3s;
+}
+.pen{
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background: blue;
+    width: 33px;
+    height: 80px;
+    border-radius: 0 30px 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: .3s;
+}
+.add-categorie-list-2:hover > .trash{
+    right: 0;
+}
+.add-categorie-list-2:hover > .camera{
+    top: 0;
+}
+.add-categorie-list-2:hover > .pen{
+    left: 0;
+}
+.black-bg-admin,.black-bg-add{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: #0000001c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-categ{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 20px;
+}
+.add-categ-box{
+    width: 300px;
+    padding: 3px 10px;
+    font-size: 16px;
+    background: #f2f2f2;
+    border: 1px solid #bbbbbb;
+}
+.categ-action{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.categ-action button{
+    padding: 4px 10px;
+    cursor: pointer;
+    border: none;
+}
+.categ-action button:first-child{
+    background: black;
+    color: white;
+}
+.update-categ{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 20px;
+}
+.add-categorie-list-2 div{
+    cursor: pointer;
+}

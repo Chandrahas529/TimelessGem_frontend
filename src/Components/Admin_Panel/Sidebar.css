@@ -1,0 +1,32 @@
+.sidebar{
+    height: 100%;
+    background: #fafafa;
+    border-right: 1px solid #cbcbcb;
+}
+.sidebar-menu{
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+}
+.sidebar-menu li{
+    width: 100%;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+.sidebar-menu li:hover{
+    background: black;
+    color: white;
+}
+.sidebar-menu li:hover img{
+    filter: invert(1);
+}
+.active-li{
+    background: black;
+    color: white;
+}
+.active-li img{
+    filter: invert(1);
+}
+.sidebar-links i{
+    width: 21px;
+}

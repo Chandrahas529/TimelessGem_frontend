@@ -1,0 +1,64 @@
+.aboutus{
+    font-size: 24px;
+}
+.story{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 2em 0;
+}
+.choose{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 2em 0;
+}
+.mission{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 2em 0;
+}
+.boxes{
+    overflow: hidden;
+    height: 155px;
+    padding: 0 2em 1em 2em;
+    color: white;
+}
+.boxes:nth-child(1){
+    background: url("../Images/repair3.png");
+    background-size: cover;
+    background-position: center;
+    border: 4px solid #fff;
+}
+.boxes:nth-child(2){
+    background: url("../Images/repair8.png");
+    background-size: cover;
+    border: 4px solid #000;
+}
+.boxes:nth-child(3){
+    background: url("../Images/repair9.png");
+    background-size: cover;
+    background-position: center;
+    border: 4px solid #fff;
+    color: #fff;
+}
+.show-about{
+    display: flex;
+    align-items: center;
+}
+.boxes:hover{
+    transition: smooth;
+    height: fit-content;
+}
+@media (max-width:550px){
+    .aboutus{
+        font-size: 22px;
+    }
+    .aboutus div{
+        font-size: 24px;
+    }
+    .boxes{
+        padding: 1em 10px 1em 10px;
+    }
+}

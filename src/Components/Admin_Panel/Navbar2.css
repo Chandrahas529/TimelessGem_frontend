@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.nav2{
+    height: 60px;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2em;
+    z-index: 100;
+    position: relative;
+    top: 0;
+}
+.nav-left-2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 23px;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+}
+.nav-logo{
+    height: 45px;
+    width: 45px;
+}
+.menu-2{
+    display: none;
+}
+.nav-right-2{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.admin-panel-title{
+    font-size: 14px;
+}
+.admin-photo-ctn{
+    height: 40px;
+    width: 40px;
+}
+.admin-photo{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.logout{
+    color: white;
+    border: 1px solid white;
+    background: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+.logout-icon{
+    display: none;
+}
+@media (max-width:920px){
+    .nav-right-2{
+        gap: 2em;
+    }
+}
+@media (max-width:920px){
+    .nav2{
+        padding: 0 1em;
+    }
+    .nav-right-2{
+        gap: 1em;
+    }
+}
+@media (max-width:740px){
+    .menu-2{
+        z-index: 10;
+        position: absolute;
+        display: block;
+        font-size: 28px;
+        cursor: pointer;
+        right: 1em;
+    }
+    .black-bg{
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: -webkit-fill-available;
+        width: -webkit-fill-available;
+        background: #0000005e;
+        display: none;
+    }
+    .show-bg{
+        display: block;
+    }
+    .show-nav{
+        transform: translateX(0%);
+    }
+}
+@media (max-width:600px){
+    .admin-photo-ctn{
+        height: 35px;
+        width: 35px;
+    }
+    .user-info{
+        font-size: 17px;
+    }
+}
+@media (max-width:580px){
+    .logout-txt{
+        display: none;
+    }
+    .admin-photo-ctn{
+        cursor: pointer;
+    }
+    .logout{
+        padding: 5px 10px;
+    }
+    .logout-icon{
+        display: block;
+        font-size: 18px;
+    }
+    .user-info{
+        position: relative;
+    }
+    .admin-name{
+        position: absolute;
+        bottom: -40px;
+        padding: 3px 12px;
+        right: 50%;
+        transform: translateX(50%);
+        color: black;
+        box-shadow: 0px 0px 10px -1px #9f9f9f;
+        border-radius: 30px;
+        display: none;
+    }
+    .admin-name::after{
+        content: "";
+        position: absolute;
+        left: 37%;
+        top: -5px;
+        height: 20px;
+        width: 20px;
+        background: linear-gradient(135deg, white 50%, transparent 0 -100%);
+        transform: rotate(45deg);
+    }
+    .show-name{
+        display: block;
+    }
+}
+@media (max-width:480px){
+    .nav2{
+        height: 50px;
+    }
+    .nav-left-2{
+        font-size: 19px;
+    }
+    .menu-2{
+        font-size: 22px;
+    }
+    .nav-logo{
+        height: 38px;
+        width: 38px;
+    }
+    .admin-name{
+        position: absolute;
+        bottom: -36px;
+    }
+}
+@media (max-width:370px) {
+    .nav-left-2{
+        gap: 10px;
+    }
+    .nav2{
+        padding: 0 8px;
+    }
+}
+@media (max-width:330px) {
+    .nav-logo{
+        height: 34px;
+        width: 34px;
+    }
+    .nav-left-2{
+        font-size: 17px;
+    }
+    .menu-2{
+        font-size: 20px;
+    }
+}
