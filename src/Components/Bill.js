@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Bill.css";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Base_url } from "./helper";
 function Bill() {
     const queryString = window.location.search;

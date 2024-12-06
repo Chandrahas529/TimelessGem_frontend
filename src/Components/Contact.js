@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Contact.css";
 import { useEffect } from "react";
-import { Base_url } from "./helper";
 function Contact (){
     useEffect(()=>{
         window.scrollTo({

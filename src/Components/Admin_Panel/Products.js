@@ -29,7 +29,7 @@ function ProductTable({search,outStock,lessStock}){
             let result = await fetch(Base_url+"/product");
             result = await result.json();
             const newdata = result.map((item) =>
-                fetch(`http://localhost:7000/sellquantity/${item._id}`).then(res => res.json())
+                fetch(`${Base_url}/sellquantity/${item._id}`).then(res => res.json())
             );
             const newData = await Promise.all(newdata);
             const realData = result.map((item, index) => ({

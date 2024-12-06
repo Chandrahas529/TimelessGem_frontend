@@ -61,7 +61,7 @@ function Recentorders(){
             let res = await fetch(Base_url+"/neworders");
             res = await res.json();
             const newdata = res.map((item)=>
-                fetch(`http://localhost:7000/orderimages/${item.productId}`).then(result=>result.json())
+                fetch(`${Base_url}/orderimages/${item.productId}`).then(result=>result.json())
             );
             const newData = await Promise.all(newdata);
             const realData = res.map((item,index)=>({

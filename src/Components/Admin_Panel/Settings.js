@@ -109,7 +109,7 @@ function OtherAdmins() {
     const [admins, setAdmins] = useState([]);
     async function getAdmins() {
         try {
-            let res = await fetch('http://localhost:7000/getadmins');
+            let res = await fetch(Base_url+'/getadmins');
             res = await res.json();
             setAdmins(res);
         } catch (err) {

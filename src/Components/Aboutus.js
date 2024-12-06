@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import "./Aboutus.css";
-import { Base_url } from "./helper";
 function Aboutus() {
   useEffect(()=>{
     window.scrollTo({

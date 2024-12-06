@@ -66,6 +66,9 @@ function SearchResult() {
         <div className="search-body">
             <div className="launch-list">
             {
+                (products==="")?<div>No result found</div>:""
+            }
+            {
                 products.map((product, index) => {
                     return <div key={index} className="launch-card">
                         <Link to={"/product?id=" + product?._id + "&category=" + product?.categorie + "&brand=" + product?.brand} style={{ color: "inherit" }}>

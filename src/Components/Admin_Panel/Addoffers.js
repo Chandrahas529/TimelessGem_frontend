@@ -101,7 +101,7 @@ function Products({setReloadlist,nonoffer}){
     const [products,setProducts] = useState([]);
     async function getProducts(){
         try{
-            let res = await fetch('http://localhost:7000/offersproduct');
+            let res = await fetch(Base_url+'/offersproduct');
             res = await res.json();
             setProducts(res);
         }catch(err){

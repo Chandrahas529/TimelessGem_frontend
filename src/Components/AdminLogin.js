@@ -15,7 +15,7 @@ function Login (){
     const [password,setPassword] = useState("");
     async function validate(){
         if(username && password){
-            let result = await fetch('http://localhost:7000/login',{
+            let result = await fetch(Base_url+'/login',{
                 method:"post",
                 body:JSON.stringify({username,password}),
                 headers:{"Content-Type":"application/json"}
