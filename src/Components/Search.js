@@ -46,7 +46,7 @@ function SearchResult() {
 
     async function getProducts(query) {
         try {
-            let res = await fetch(`http://192.168.43.148:7000/search?searched=${query}`);
+            let res = await fetch(`${Base_url}/search?searched=${query}`);
             res = await res.json();
             setProducts(res);
         } catch (err) {
